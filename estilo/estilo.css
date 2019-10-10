@@ -13,6 +13,19 @@ body {
     margin: 7px;
 }
 
+.Header__menu ul{
+    /*display: none;*/
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width:100px;
+}
+
 .Header__menu{
     margin-right: 30px;
+}
+
+.Header__menu--profile{
+    margin-right: 8px;
+    width: 40px;
 }
