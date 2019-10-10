@@ -12,3 +12,7 @@ body {
     width: 200px;
     margin: 7px;
 }
+
+.Header__menu{
+    margin-right: 30px;
+}
