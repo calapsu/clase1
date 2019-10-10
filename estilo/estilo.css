@@ -1,11 +1,14 @@
 body {
     margin: 0px;
     background-color: #Ab88ff;
+    font-family: 'Muli', sans-serif;
 }
 .Header {
     background-color: #Ab88ff;
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Header__img {
@@ -14,19 +17,38 @@ body {
 }
 
 .Header__menu ul{
-    /*display: none;*/
+    display: none;
     list-style: none;
     padding: 0;
     position: absolute;
     width:100px;
     text-align: right;
+    margin: 0px 0px 0px -14px;
+   
 }
 
 .Header__menu{
     margin-right: 30px;
 }
 
+.Header__menu:hover ul, ul:hover{
+    display: block;
+}
+
+.Header__menu li{
+    margin: 10px 0px;
+}
+
+.Header__menu li a{
+    color: white;
+    text-decoration: none;
+}
+
 .Header__menu--profile{
     margin-right: 8px;
     width: 40px;
+}
+
+.Header__menu--profile p {
+    color: white;
 }
