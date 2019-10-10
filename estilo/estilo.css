@@ -9,11 +9,12 @@ body {
     height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .Header__img {
     width: 200px;
-    margin: 7px;
+    
 }
 
 .Header__menu ul{
@@ -24,11 +25,11 @@ body {
     width:100px;
     text-align: right;
     margin: 0px 0px 0px -14px;
+    margin-right: 57px;
    
 }
-
 .Header__menu{
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .Header__menu:hover ul, ul:hover{
@@ -44,11 +45,27 @@ body {
     text-decoration: none;
 }
 
+.Header__menu li a:hover{
+    
+    text-decoration: underline;
+}
+
 .Header__menu--profile{
     margin-right: 8px;
+    /*width: 40px;*/
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Header__menu--profile img{
+    margin-right: 9px;
     width: 40px;
 }
 
-.Header__menu--profile p {
+.Header__menu--profile p{
+    margin: 0px;
     color: white;
+ 
 }
