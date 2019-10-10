@@ -19,6 +19,7 @@ body {
     padding: 0;
     position: absolute;
     width:100px;
+    text-align: right;
 }
 
 .Header__menu{
